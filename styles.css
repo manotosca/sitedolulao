@@ -14,7 +14,7 @@ html, body {
   color: white;
 }
 
-/* Fundo animado */
+/* fundo com canvas */
 .background {
   position: fixed;
   top: 0;
@@ -28,13 +28,13 @@ canvas {
   display: block;
 }
 
-/* Centralizar tudo com flexbox */
+/* conteúdo centralizado com flexbox */
 .content {
-  height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  height: 100vh;
   text-align: center;
   padding: 20px;
   z-index: 1;
@@ -48,13 +48,14 @@ canvas {
 
 h1 {
   font-size: 3em;
-  color: white;
   margin-bottom: 20px;
+  color: white;
 }
 
 p {
   font-size: 1.5em;
   max-width: 600px;
+  margin: 0 auto;
   color: #00aaff;
 }
 
@@ -72,4 +73,3 @@ p {
 .socials a:hover {
   text-decoration: underline;
 }
-
