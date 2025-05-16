@@ -27,7 +27,6 @@ canvas {
   display: block;
 }
 
-/* Centralização do conteúdo */
 .content {
   position: absolute;
   top: 50%;
@@ -47,7 +46,6 @@ canvas {
 h1 {
   font-size: 3em;
   margin-bottom: 20px;
-  color: white;
 }
 
 p {
@@ -71,4 +69,3 @@ p {
 .socials a:hover {
   text-decoration: underline;
 }
-
