@@ -7,14 +7,14 @@
   font-family: 'Orbitron', sans-serif;
 }
 
-body, html {
+html, body {
   height: 100%;
   background: black;
   overflow: hidden;
   color: white;
 }
 
-/* Fundo com estrelas */
+/* Fundo animado */
 .background {
   position: fixed;
   top: 0;
@@ -28,7 +28,7 @@ canvas {
   display: block;
 }
 
-/* Centraliza o conteúdo no meio da tela */
+/* Centralizar tudo com flexbox */
 .content {
   height: 100vh;
   display: flex;
@@ -36,21 +36,26 @@ canvas {
   justify-content: center;
   align-items: center;
   text-align: center;
-  z-index: 1;
   padding: 20px;
+  z-index: 1;
+}
+
+.content img {
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
 }
 
 h1 {
   font-size: 3em;
-  margin-bottom: 20px;
   color: white;
+  margin-bottom: 20px;
 }
 
 p {
   font-size: 1.5em;
   max-width: 600px;
   color: #00aaff;
-  margin-bottom: 20px;
 }
 
 .socials {
