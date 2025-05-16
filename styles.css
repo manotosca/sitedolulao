@@ -27,7 +27,7 @@ canvas {
   display: block;
 }
 
-/* Centralização perfeita do conteúdo */
+/* Centralização do conteúdo */
 .content {
   position: absolute;
   top: 50%;
@@ -71,3 +71,4 @@ p {
 .socials a:hover {
   text-decoration: underline;
 }
+
